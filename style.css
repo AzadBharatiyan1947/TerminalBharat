@@ -1,0 +1,133 @@
+refer{color:
+    #0E0E10 
+   #10e3a4 
+   #2575fc
+    #c90411
+     #F8F8FF
+     #FFA500
+      #f2aa00
+      #fc6b03
+      #6666ff
+      #002fed
+   } 
+.topbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #FFA500;
+    height: 100px;
+    margin-left: -8px;
+    margin-top: -8px;
+    overflow: hidden;
+    padding-right: 8px;
+    display: block;
+    display: none;
+}
+.logo{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    position: absolute;
+    width: 150px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: 5px;
+    margin-top: -38px;
+    top: 15px;
+    overflow: hidden;
+
+}
+.search{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0 ;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+.search input{
+    padding: 20px;
+    position: relative;
+    right: 0; 
+    left: 15px;
+    border: none;
+    margin-right: 40px;
+    padding-right: 35px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.search i{
+    position: absolute;
+    right: 50px;
+    overflow: hidden;
+}
+.search h6:hover{
+    background-color: #6666ff;
+}
+.bottom{
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #f2aa00;
+    bottom: 0 ;
+    padding-left: 5px;
+    padding-right: 55px;
+    margin-top: -5px;
+    margin-left: -15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px black;
+    z-index: 999;
+    overflow: hidden;
+   
+}
+.badge{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0 ;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: -20px;
+}
+
+.badge i{
+    position: relative ;
+    margin-right: 40px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.badge i:hover{
+    background-color: #6666ff;
+    box-shadow: 1px 1px 15px #6666ff;
+    padding: 12px;
+    border-radius: 10px;
+    color: #F8F8FF;
+}
+.badge i:nth-child(1){
+    background-color: #2575fc;
+    border-radius: 50%;
+    padding: 15px;
+    color: #F8F8FF;
+}
+.badge i:nth-child(2){
+    margin-left: -25px;
+}
+.toplay{
+    position: fixed;
+    top: 0;
+    margin-left: -8px;
+    padding-right: 5px;
+    width: 100%;
+    background-color: #FFA500;
+    height: 100px;
+}

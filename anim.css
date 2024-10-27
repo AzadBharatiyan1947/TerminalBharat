@@ -1,0 +1,24 @@
+@keyframes rtl {
+    from{transform: translateX(-500px);}
+}
+@keyframes ex {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+  @keyframes btt {
+    from {
+  transform: translateY(500px) ;
+  }
+  }
+  @keyframes ttb {
+    from {
+  transform: translateX(-500px) ;
+  }}
+  @keyframes btg{
+    from{
+      transform: translateY(500px);
+    }
+  }
