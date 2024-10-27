@@ -59,7 +59,7 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
-    height: 620px;
+    height: 520px;
     border-radius: 20px;
     background-color :rgba(247, 247, 255, 0.685);
     margin-top: -55px;
@@ -92,7 +92,7 @@ refer{color:
     right: 0;
     margin: auto;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     color: #F8F8FF;
     letter-spacing: 0.6px;
 }
