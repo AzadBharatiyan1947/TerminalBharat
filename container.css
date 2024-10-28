@@ -96,3 +96,31 @@ refer{color:
     color: #F8F8FF;
     letter-spacing: 0.6px;
 }
+.supportimg{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    position: absolute;
+    width: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0 ;
+    margin-top: 520px;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+.supportimg:nth-child(1){
+    top: -10px;
+}
+.supportimg:nth-child(2){
+    right: 250px;
+}
+.supportimg:nth-child(3){
+ left: 250px;
+}
+.supportimg:hover{
+    transform: scale(1.2);
+}
