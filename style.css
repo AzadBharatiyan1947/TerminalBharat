@@ -171,3 +171,6 @@ refer{color:
     text-decoration:5px solid #10e3a4 underline;
     min-height: 10px;
 }
+.category ul li a:hover .showcat{
+    
+}
