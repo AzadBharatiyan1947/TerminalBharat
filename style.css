@@ -165,4 +165,9 @@ refer{color:
     margin-right: 35px;
     text-decoration: none;
     font-size: 18px;
+    transition: 0.8s linear;
+}
+.category ul li a:hover{
+    text-decoration:5px solid #10e3a4 underline;
+    min-height: 10px;
 }
