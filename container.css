@@ -238,7 +238,8 @@ refer{color:
     font-family: tekm;
     text-align: center;
     margin-top: -35px;
-    fo
+    margin-left: 25PX;
+    margin-right: 25PX;
 }
 .amd i{
     position: relative;
