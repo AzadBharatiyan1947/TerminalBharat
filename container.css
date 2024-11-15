@@ -179,18 +179,26 @@ refer{color:
 .soft{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow-x: scroll;
     margin-top: 125px;
     width: 300px;
+    position: absolute;
+    top: -105PX;
 }
 .soft::-webkit-scrollbar{
     height: 5px;
     border-radius: 10px;
     background-color: #fc6b03;
     color: #fc6b03;
+    position: relative;
+}
+.soft::-webkit-scrollbar-track{
+    
 }
 .amd{
-    position:absolute;
+    position:relative;
     left: 0;
     right: 0;
     margin: auto;
@@ -198,14 +206,14 @@ refer{color:
     width: 300px;
     height: 240px;
     border-radius: 15px;
-    margin-top: -395px;
-    
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 .amd:nth-child(2){
-    margin-left: 350px;
-}
-.amd:nth-child(3){
-    margin-left: 850px;
+    top: 0;
+    position: absolute;
+    left: 550px;
 }
 .amd h6{
     color: #F8F8FF;

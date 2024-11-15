@@ -10,3 +10,51 @@ refer{color:
       #6666ff
       #002fed
    }
+.head-down{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:#F0FFFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 95%;
+    height: 750px;
+    box-shadow: 1px 1px 15px #0E0E10;
+}
+.head-down h3{
+    font-family: age;
+    font-style: italic;
+    word-spacing: 10px;
+    text-align: center;
+}
+.ava{
+    color: #fc6b03;
+    font-size: larger;
+}
+.head-down i{
+    display: none;
+}
+#dnl::selection{
+    position: relative;
+    margin-right: 15px;
+}
+#dnl{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 290px;
+    height: 40px;
+    margin: auto;
+    outline: none;
+}
+#dnl:last-child{
+    margin-top: 65px;
+}
+option{
+    font-family: age;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
