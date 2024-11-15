@@ -128,7 +128,7 @@ refer{color:
     position: absolute;
     top: 0;
     background-color: #F8F8FF;
-    height: 520px;
+    height: 720px;
     border-radius: 20px;
     width: 95%;
     display: inline-flex;
@@ -183,7 +183,7 @@ refer{color:
     width: 300px;
     height: 240px;
     border-radius: 15px;
-    margin-top: -195px;
+    margin-top: -395px;
 }
 .amd h6{
     color: #F8F8FF;
@@ -213,6 +213,46 @@ refer{color:
     background-color: #F8F8FF ;
     padding: 15px;
     font-family: age;
-
+    text-align: center;
+}
+.nvd{
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:#76b900;
+    width: 300px;
+    height: 240px;
+    border-radius: 15px;
+    margin-top: 105px;
+}
+.nvd h6{
+    color: #F8F8FF;
+    font-family: gre;
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 25px;
+}
+.nvd p{
+    color: #F8F8FF;
+    font-family: tekm;
+    text-align: center;
+    margin-top: -35px;
+    fo
+}
+.amd i{
+    position: relative;
+}
+.nvd a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    text-decoration: none;
+    color: #0E0E10;
+    background-color: #F8F8FF ;
+    padding: 15px;
+    font-family: age;
     text-align: center;
 }
