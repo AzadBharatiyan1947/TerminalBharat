@@ -157,6 +157,9 @@ refer{color:
     margin: auto;
     top: 0;
     display: none;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
     
 }
 .category ul li a{
@@ -173,7 +176,19 @@ refer{color:
 }
 .category ul li a:hover .showcat{
 }
-
+.soft{
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    margin-top: 125px;
+    width: 300px;
+}
+.soft::-webkit-scrollbar{
+    height: 5px;
+    border-radius: 10px;
+    background-color: #fc6b03;
+    color: #fc6b03;
+}
 .amd{
     position:absolute;
     left: 0;
@@ -184,6 +199,13 @@ refer{color:
     height: 240px;
     border-radius: 15px;
     margin-top: -395px;
+    
+}
+.amd:nth-child(2){
+    margin-left: 350px;
+}
+.amd:nth-child(3){
+    margin-left: 850px;
 }
 .amd h6{
     color: #F8F8FF;
