@@ -14,7 +14,7 @@ refer{color:
     position:fixed;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 9500px;
     background-color: #0E0E10;
     margin-top: 100px;
     margin-left: -8px;
@@ -96,194 +96,46 @@ refer{color:
     color: #F8F8FF;
     letter-spacing: 0.6px;
 }
-.supportimg{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    position: absolute;
-    width: 80px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0 ;
-    margin-top: 520px;
-    transition: 0.5s linear;
-    cursor: pointer;
-}
-.supportimg:nth-child(1){
-    top: -10px;
-}
-.supportimg:nth-child(2){
-    right: 250px;
-}
-.supportimg:nth-child(3){
- left: 250px;
-}
-.supportimg:hover{
-    transform: scale(1.2);
-}
-.category{
-    position: absolute;
-    top: 0;
-    background-color: #F8F8FF;
-    height: 720px;
-    border-radius: 20px;
-    width: 95%;
-    display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin-top: 480px;
-}
-.category ul li{
-  display: inline-flex;
-  justify-content: center;
-  
-}
-.cate{
-    text-align: center;
-    font-family: val ;
-    color: #0E0E10;
-    display: grid;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    display: none;
-    display: flex;
-    flex-direction: column;
-    overflow-x: scroll;
-    
-}
-.category ul li a{
-    color: #0E0E10;
-    margin-right: 35px;
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.8s linear;
-    margin-top: 450px;
-}
-.category ul li a:hover{
-    text-decoration:5px solid #10e3a4 underline;
-    min-height: 10px;
-}
-.category ul li a:hover .showcat{
-}
-.soft{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-x: scroll;
-    margin-top: 125px;
-    width: 300px;
-    position: absolute;
-    top: -105PX;
-}
-.soft::-webkit-scrollbar{
-    height: 5px;
-    border-radius: 10px;
-    background-color: #fc6b03;
-    color: #fc6b03;
+.cate h4{
     position: relative;
+    top: 430px;
+    font-family: tbg;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #76b900;
+    letter-spacing: 5px;
 }
-.soft::-webkit-scrollbar-track{
-    
-}
-.amd{
-    position:relative;
+.cate table{
+    position: absolute;
+    top: 560px;
+    color:#0E0E10;
+    line-height: 55PX;
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #c90411;
-    width: 300px;
-    height: 240px;
-    border-radius: 15px;
+    width: 85%;
+    font-family: AGE;
+}
+.cate table tr{
+    margin-top: 15px;
+}
+.cate td{
     display: flexbox;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-.amd:nth-child(2){
-    top: 0;
-    position: absolute;
-    left: 550px;
-}
-.amd h6{
-    color: #F8F8FF;
-    font-family: gre;
-    font-weight: lighter;
-    font-size: larger;
-    margin-left: 25px;
-}
-.amd p{
-    color: #F8F8FF;
-    font-family: tekm;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: -35px;
-    fo
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s linear;
 }
-.amd i{
-    position: relative;
-}
-.amd a{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 150px;
-    text-decoration: none;
-    color: #0E0E10;
-    background-color: #F8F8FF ;
-    padding: 15px;
-    font-family: age;
-    text-align: center;
-}
-.nvd{
-    position:absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-color:#76b900;
-    width: 300px;
-    height: 240px;
-    border-radius: 15px;
-    margin-top: 105px;
-}
-.nvd h6{
-    color: #F8F8FF;
-    font-family: gre;
-    font-weight: lighter;
-    font-size: larger;
-    margin-left: 25px;
-}
-.nvd p{
-    color: #F8F8FF;
-    font-family: tekm;
-    text-align: center;
-    margin-top: -35px;
-    margin-left: 25PX;
-    margin-right: 25PX;
-}
-.amd i{
-    position: relative;
-}
-.nvd a{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 150px;
-    text-decoration: none;
-    color: #0E0E10;
-    background-color: #F8F8FF ;
-    padding: 15px;
-    font-family: age;
-    text-align: center;
+.cate td:hover{
+    background-color: #0E0E10;
+    color: #76b900;
+    box-shadow: 1px 1px 15px #76b900;
 }

@@ -11,11 +11,11 @@ refer{color:
        #002fed
     }
 
-*/{
+*/*{
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
-}
+}/*/
 body{
     background-color: #F8F8FF;
     max-width: 100% ;
