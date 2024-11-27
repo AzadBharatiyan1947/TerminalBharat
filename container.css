@@ -11,10 +11,10 @@ refer{color:
       #002fed
    } 
 .container{
-    position:fixed;
+    position: absolute;
     top: 0;
     width: 100%;
-    height: 9500px;
+    height: 1950px;
     background-color: #0E0E10;
     margin-top: 100px;
     margin-left: -8px;
@@ -114,8 +114,7 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
-    width: 95%; 
-    
+    width: 95%;
     font-family: AGE;
     border-spacing: 15PX;
 }
