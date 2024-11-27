@@ -58,7 +58,7 @@ refer{color:
     left: 15px;
     border: none;
     margin-right: 40px;
-    padding-right: 35px;
+    padding-right: 5px;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -110,11 +110,11 @@ refer{color:
     color: #F8F8FF;
 }
 .badge i:hover{
-    background-color: #6666ff;
-    box-shadow: 1px 1px 15px #6666ff;
+    background-color: #76B900;
+    box-shadow: 1px 1px 15px #76B900;
     padding: 12px;
     border-radius: 10px;
-    color:#F8F8FF ;
+    color:#0E0E10 ;
 }
 .badge i:nth-child(1){
     background-color: #2575fc;

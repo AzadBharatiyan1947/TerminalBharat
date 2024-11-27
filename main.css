@@ -22,3 +22,22 @@ body{
 }
 #check {display: none;}
 @media(max-width: 610px){}
+
+#dropd{
+    color: #76B900;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 140px;
+}
+.lines{
+    display: none;
+}
+#dropd:hover .lines{
+    display: block;
+    animation-play-state: paused;
+}
