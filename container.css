@@ -116,9 +116,11 @@ refer{color:
     margin: auto;
     width: 85%;
     font-family: AGE;
+    border-spacing: 15PX;
 }
 .cate table tr{
-    margin-top: 15px;
+    margin-bottom: 15PX;
+    border-spacing: 15PX;
 }
 .cate td{
     display: flexbox;
