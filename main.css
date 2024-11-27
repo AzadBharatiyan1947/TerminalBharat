@@ -16,9 +16,9 @@ refer{color:
     overflow-x: hidden;
     overflow-y: hidden;
 }/*/
-body{
+/*body{
     background-color: #F8F8FF;
     max-width: 100% ;
-}
+}*/
 #check {display: none;}
 @media(max-width: 610px){}

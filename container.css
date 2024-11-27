@@ -19,8 +19,8 @@ refer{color:
     margin-top: 100px;
     margin-left: -8px;
     padding-right: 5px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /*overflow-y: scroll;
+    overflow-x: hidden;*/
 }
 .adbanner{
     width: 100%;
@@ -114,7 +114,7 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
-    width: 85%;
+    width: 95%;
     font-family: AGE;
     border-spacing: 15PX;
 }
