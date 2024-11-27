@@ -99,7 +99,7 @@ refer{color:
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin-left: -20px;
+    margin-left: 20PX;
 }
 
 .badge i{
