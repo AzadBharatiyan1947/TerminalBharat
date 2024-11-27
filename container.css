@@ -114,7 +114,8 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
-    width: 95%;
+    width: 95%; 
+    
     font-family: AGE;
     border-spacing: 15PX;
 }
