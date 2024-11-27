@@ -8,6 +8,7 @@ refer{color:
       #f2aa00
       #fc6b03
       #6666ff
+      #76B900
       #002fed
    } 
 .topbar{
@@ -83,6 +84,7 @@ refer{color:
     box-shadow: 1px 1px 15px black;
     z-index: 999;
     overflow: hidden;
+    box-shadow: 1px 1px 15px #76B900;
    
 }
 .badge{
@@ -112,7 +114,7 @@ refer{color:
     box-shadow: 1px 1px 15px #6666ff;
     padding: 12px;
     border-radius: 10px;
-    color: #F8F8FF;
+    color:#F8F8FF ;
 }
 .badge i:nth-child(1){
     background-color: #2575fc;
@@ -131,4 +133,6 @@ refer{color:
     width: 100%;
     background-color: black;
     height: 100px;
+    box-shadow: 1px 1px 15px #76B900;
+    z-index: 99;
 }
