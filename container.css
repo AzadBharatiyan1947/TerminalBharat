@@ -38,6 +38,7 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
+    animation-name: slideIn ;
 }
 .adbanner h4{
     font-family: tele;

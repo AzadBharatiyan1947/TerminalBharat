@@ -1,0 +1,7 @@
+@keyframes ttb{
+    from
+}
+@keyframes slideIn { 
+    from { transform: translateY(0px)); } 
+    to { transform: translateX(500px); } 
+}

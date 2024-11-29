@@ -19,6 +19,7 @@ refer{color:
 body{
     background-color: #F8F8FF;
     max-width: 100% ;
+    overflow-x: hidden;
 }
 #check {display: none;}
 @media(max-width: 610px){}
@@ -33,11 +34,11 @@ body{
     justify-content: center;
     align-items: center;
     left: 140px;
+    animation-name: slideIn ;
 }
 .lines{
     display: none;
 }
 #dropd:hover .lines{
     display: block;
-    animation-play-state: paused;
 }
