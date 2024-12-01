@@ -144,4 +144,11 @@ refer{color:
     color: #76b900;
     box-shadow: 1px 1px 15px #76b900;
     overflow-x: hidden;
+    a{
+        color: #76b900;
+    }
+}
+.cate a{
+    text-decoration: none;
+    color: #0E0E10;
 }
