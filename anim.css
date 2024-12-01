@@ -17,8 +17,13 @@
     from {
   transform: translateX(-500px) ;
   }}
-  @keyframes btg{
+@keyframes ttb {
     from{
-      transform: translateY(500px);
+      transform: translateY(-150px);
     }
   }
+@keyframes btg {
+  from{
+    transform : translateY(150px)
+  }
+}

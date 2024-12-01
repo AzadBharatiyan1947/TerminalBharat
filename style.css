@@ -76,17 +76,14 @@ refer{color:
     height: 80px;
     background-color: black;
     bottom: 0 ;
-    padding-left: 5px;
-    padding-right: 55px;
     margin-top: -5px;
-
     border-radius: 5px;
     box-shadow: 1px 1px 15px black;
     z-index: 999;
     overflow: hidden;
     box-shadow: 1px 1px 15px #76B900;
-    
-   
+    animation: linear 0.5s;
+    animation-name: btg ;
 }
 .badge{
     position: absolute;
@@ -101,6 +98,8 @@ refer{color:
     align-items: center;
     overflow: hidden;
     margin-left: 15px;
+    animation: linear 0.5s;
+    animation-name: btg ;
 }
 
 .badge i{
@@ -109,6 +108,8 @@ refer{color:
     transition: 0.3s linear;
     cursor: pointer;
     color: #F8F8FF;
+    animation: linear 0.5s;
+    animation-name: btg ;
     
 }
 .badge i:hover{
@@ -118,7 +119,7 @@ refer{color:
     border-radius: 10px;
     color:#0E0E10 ;
 }
-.badge i:nth-child(1){
+/*.badge i:nth-child(1){
     background-color: #2575fc;
     border-radius: 50%;
     padding: 15px;
@@ -126,7 +127,7 @@ refer{color:
 }
 .badge i:nth-child(2){
     margin-left: -25px;
-}
+}*/
 .toplay{
     position: fixed;
     top: 0;
@@ -137,4 +138,6 @@ refer{color:
     height: 100px;
     box-shadow: 1px 1px 15px #76B900;
     z-index: 99;
+    animation: linear 0.5s;
+    animation-name: ttb ;
 }

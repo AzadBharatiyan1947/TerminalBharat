@@ -19,8 +19,8 @@ refer{color:
     margin-top: 100px;
     margin-left: -8px;
     padding-right: 5px;
-    overflow-y: scroll;
     overflow-x: hidden;
+    
     
 }
 .adbanner{
@@ -39,7 +39,6 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
-    animation-name: slideIn ;
 }
 .adbanner h4{
     font-family: tele;
@@ -69,6 +68,7 @@ refer{color:
     transition: 0.5s linear;
     cursor: pointer;
     overflow-x: hidden;
+    
 }
 .adstab{
     position: absolute;
@@ -123,6 +123,7 @@ refer{color:
     font-family: AGE;
     border-spacing: 15PX;
     overflow-x: hidden;
+ 
 }
 .cate td{
     display: flexbox;
@@ -138,6 +139,7 @@ refer{color:
     cursor: pointer;
     transition: 0.5s linear;
     overflow-x: hidden;
+    
 }
 .cate td:hover{
     background-color: #0E0E10;
