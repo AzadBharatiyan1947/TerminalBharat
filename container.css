@@ -19,8 +19,9 @@ refer{color:
     margin-top: 100px;
     margin-left: -8px;
     padding-right: 5px;
-    /*overflow-y: scroll;
-    overflow-x: hidden;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
 }
 .adbanner{
     width: 100%;
@@ -67,6 +68,7 @@ refer{color:
     box-shadow: 1px 1px 30px #0E0E10;
     transition: 0.5s linear;
     cursor: pointer;
+    overflow-x: hidden;
 }
 .adstab{
     position: absolute;
@@ -80,6 +82,7 @@ refer{color:
     top: 0;
     margin-top: 50px;
     color: #F8F8FF;
+    overflow-x: hidden;
 }
 .optnot{
     font-family: ldf;
@@ -106,6 +109,7 @@ refer{color:
     font-weight: lighter;
     color: #76b900;
     letter-spacing: 5px;
+    overflow-x: hidden;
 }
 .cate table{
     position: absolute;
@@ -118,6 +122,7 @@ refer{color:
     width: 95%;
     font-family: AGE;
     border-spacing: 15PX;
+    overflow-x: hidden;
 }
 .cate td{
     display: flexbox;
@@ -132,9 +137,11 @@ refer{color:
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s linear;
+    overflow-x: hidden;
 }
 .cate td:hover{
     background-color: #0E0E10;
     color: #76b900;
     box-shadow: 1px 1px 15px #76b900;
+    overflow-x: hidden;
 }
