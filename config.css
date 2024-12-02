@@ -1,60 +1,76 @@
 refer{color:
-    #0E0E10 
-   #10e3a4 
-   #2575fc
-    #c90411
-     #F8F8FF
-     #FFA500
-      #f2aa00
-      #fc6b03
-      #6666ff
-      #002fed
-   }
-.head-down{
+#0E0E10 
+#10e3a4 
+#2575fc
+#c90411
+#F8F8FF
+#FFA500
+#fc6b03
+#6666ff
+#76B900
+#002fed
+#ef0707
+#bd00ff
+#e3ff00
+}
+.divid2{
     position: absolute;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    top: 845px;
+    width: 87%;
+    height: 8px;
     left: 0;
     right: 0;
     margin: auto;
-    background-color:#F0FFFF;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    width: 95%;
-    height: 750px;
-    box-shadow: 1px 1px 15px #0E0E10;
 }
-.head-down h3{
-    font-family: age;
-    font-style: italic;
-    word-spacing: 10px;
-    text-align: center;
+.amd{
+    position: absolute;
+    background-color: #ef0707;
+    border-radius: 10px;
+    top: 865px;
+    width: 87%;
+    height: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
-.ava{
-    color: #fc6b03;
-    font-size: larger;
-}
-.head-down i{
-    display: none;
-}
-#dnl::selection{
+.amdlogo{
     position: relative;
-    margin-right: 15px;
+    width: 150px;
+    left: 25px;
 }
-#dnl{
+.amdpara{
+    color: #F8F8FF;
+    font-family: typo;
+    position: relative;
+    padding-left: 35px;
+}
+.amdlink{
     position: absolute;
-    left: 0;
-    right: 0;
-    width: 290px;
-    height: 40px;
-    margin: auto;
-    outline: none;
+    right: 20px;
+    bottom: -20px;
+    text-decoration: none;
+    color: #ef0707;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: tele;
+    font-size: 25px;
+    transition: all 0.5s linear;
 }
-#dnl:last-child{
-    margin-top: 65px;
+.amdlink::after{
+    content: "";
+    position: absolute;
+    width: 160PX;
+    background-color: #ef0707;
+    height: 8PX;
+    border-radius: 10PX;
+    left: -175PX;
+    bottom: 2PX;
 }
-option{
-    font-family: age;
-    text-align: center;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+.amdlink:hover{
+    transform: scale(1.2);
 }
