@@ -98,3 +98,7 @@ refer{color:
   font-family: typo;
   src: url(FONTS/Typo\ Formal\ Regular\ Demo.otf);
 }
+@font-face {
+  font-family: rad;
+  src: url(FONTS/spyagency.ttf);
+}

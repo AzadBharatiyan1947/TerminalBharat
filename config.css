@@ -64,11 +64,11 @@ refer{color:
 .amdlink::after{
     content: "";
     position: absolute;
-    width: 160PX;
+    width: 150PX;
     background-color: #ef0707;
     height: 8PX;
     border-radius: 10PX;
-    left: -175PX;
+    left: -160PX;
     bottom: 2PX;
 }
 .amdlink:hover{
