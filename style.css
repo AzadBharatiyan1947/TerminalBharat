@@ -92,7 +92,7 @@ refer{color:
     top: 0;
     bottom: 0;
     right: 0 ;
-    left: 0;
+    left: 35PX;
     margin: auto;
     display: flex;
     justify-items: center;
@@ -102,6 +102,8 @@ refer{color:
     margin-left: 15px;
     animation: linear 0.5s;
     animation-name: btg ;
+    margin-left: 15PX;
+    
 }
 
 .badge i{
