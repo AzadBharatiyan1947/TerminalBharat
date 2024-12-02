@@ -8,7 +8,7 @@
     100% {background-color: green;}
   }
 
-  @keyframes bttA {
+  @keyframes btt {
     from {
   transform: translateY(500px) ;
   }
@@ -17,12 +17,12 @@
     from {
   transform: translateX(-500px) ;
   }}
-@keyframes ttbA {
+@keyframes ttb {
     from{
       transform: translateY(-150px);
     }
   }
-@keyframes btgA {
+@keyframes btg {
   from{
     transform : translateY(150px)
   }
