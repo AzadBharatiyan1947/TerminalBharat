@@ -20,6 +20,7 @@ refer{color:
     top: 10px;
     right: 0;
     left: 0;
+    bottom: 10px;
     margin: auto;
     background-color: #F8F8FF;
     border-radius: 10px;
@@ -74,7 +75,7 @@ refer{color:
     margin: auto;
     border-radius: 1px 1px 10px 10px;
 }
-.may{
+.btom{
     position: absolute;
     background-color: #ef0707;
     width: 85%;
@@ -82,8 +83,66 @@ refer{color:
     display: flex;
     flex-direction: column;
     left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px 10px 1px 1px;
+}
+.may{
+    position: absolute;
+    background-color: #0E0E10;
+    width: 85%;
+    height: 550px;
+    box-shadow: 1px 1px 15px #0E0E10;
+    display: flex;
+    flex-direction: column;
+    left: 0;
     top: 230px;
     right: 0;
     margin: auto;
     border-radius:10px;
+}
+.may td{
+    color: #ef0707;
+    font-family: rad;
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: x-large;
+    margin-top: 25px;
+    position: relative;
+    top: 15px;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+.td::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    border-radius: 20px;
+    background-color: #F8F8FF;
+    height: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 13px;
+}
+.vmay{
+    position:absolute;
+    color: #ef0707;
+    width: 290px;
+    right: 0;
+    display: n;
+    background-color: #F8F8FF;
+    wi
+}
+.may td:hover{
+    color: #F8F8FF;
+    .vmay{
+        display: block;
+    }
+}
+.may table{
+    display: flex;
+    justify-content: center;
 }
