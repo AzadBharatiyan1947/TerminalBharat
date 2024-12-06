@@ -92,7 +92,7 @@ refer{color:
     position: absolute;
     background-color: #0E0E10;
     width: 85%;
-    height: 550px;
+    height: 60px;
     box-shadow: 1px 1px 15px #0E0E10;
     display: flex;
     flex-direction: column;
@@ -128,21 +128,36 @@ refer{color:
     top: 13px;
 }
 .vmay{
-    position:absolute;
+    position: absolute;
     color: #ef0707;
-    width: 290px;
-    right: 0;
-    display: nONE;
+    top: 55px;
+    border-radius: 10px;
+    left: -55px;
+    width: 340px;
     background-color: #F8F8FF;
-    wi
+    display: none;
 }
+. 
 .may td:hover{
     color: #F8F8FF;
     .vmay{
         display: block;
     }
 }
-.may table{
+-/*.may table{
     display: flex;
     justify-content: center;
 }
+.downver{
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #0E0E10;
+    width: 250px;
+    border-radius: 1px 1px 10px 10px;
+}*/*
