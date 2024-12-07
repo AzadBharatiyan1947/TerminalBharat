@@ -13,11 +13,33 @@ refer{color:
 #bd00ff
 #e3ff00
 }
+.divid1{
+    position: absolute;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    top: 480px;
+    width: 87%;
+    height: 8px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 .divid2{
     position: absolute;
     background-color: #F8F8FF;
     border-radius: 10px;
     top: 845px;
+    width: 87%;
+    height: 8px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.divid3{
+    position: absolute;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    top: 1100px;
     width: 87%;
     height: 8px;
     left: 0;
@@ -73,4 +95,21 @@ refer{color:
 }
 .amdlink:hover{
     transform: scale(1.2);
+}
+.amdpara:last-child{
+    color: #0E0E10;
+
+}
+.amclass{
+    display: flex;
+    flex-direction: row ;
+
+}
+.amd:last-child{
+    margin-top: 120px;
+    background-color: #F8F8FF;
+}
+.afblogo{
+    width: 70px;
+    margin-left: 55px;
 }
