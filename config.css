@@ -113,3 +113,17 @@ refer{color:
     width: 70px;
     margin-left: 55px;
 }
+.rightblend{
+    position: absolute;
+    top: 1160px;
+    border:1px solid #76B900;
+    box-shadow: 1px 1px 15px #76B900;
+    width: 95%;
+    height: 250px;
+    border-radius: 25px;
+    transform: rotate(deg);
+    left: -30px;
+}
+.rightblend:last-child{
+    top: 1360px;
+}
